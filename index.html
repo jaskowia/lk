@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zootecnista Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Zootecnista Digital</h1>
+        <p>Inovando na Gestão Pecuária com Tecnologia</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Bem-vindo(a) ao Zootecnista Digital!</h2>
+            <p>Nossa missão é integrar a **zootecnia** com as mais recentes **tecnologias digitais** para otimizar a produção animal e garantir a sustentabilidade do agronegócio.</p>
+            <p>Oferecemos soluções inovadoras para produtores rurais, consultores e empresas do setor pecuário, focando em eficiência, produtividade e bem-estar animal.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="servico-item">
+                <h3>Monitoramento Inteligente</h3>
+                <p>Uso de sensores e drones para coleta de dados em tempo real sobre o rebanho e pastagens.</p>
+            </div>
+            <div class="servico-item">
+                <h3>Consultoria Online</h3>
+                <p>Aconselhamento especializado via plataformas digitais, com planos personalizados para sua propriedade.</p>
+            </div>
+            <div class="servico-item">
+                <h3>Gestão de Dados Pecuários</h3>
+                <p>Desenvolvimento de softwares e aplicativos para organização e análise de informações sobre produção, sanidade e nutrição.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <p id="formMessage" style="display: none;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zootecnista Digital. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
